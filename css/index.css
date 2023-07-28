@@ -1,0 +1,497 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+nav{
+   background-color: rgba(0, 0, 0, 0.8);
+   position: fixed !important;
+   top: 0;
+   font-family:monospace;
+   width: 100vw;
+   z-index: 1;
+}
+.navbar-toggler{
+    color: orange !important;
+}
+.navbar-icon{
+    color: orange !important;
+    font-size: 30px;
+}
+
+nav a.nav-link{
+    color: rgba(255, 255, 255,1) !important;
+    font-size: 20px;
+}
+nav a.nav-link:hover{
+    color: orange !important;
+}
+nav .container-fluid .collapse ul li.active a{
+    color: orange !important;
+    text-shadow: 0 0 2px orange;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 25px !important;
+    color: #ffffff !important;
+    font-family:monospace;
+    text-shadow: 0 0 3px #ffffff;
+}
+.navbar-brand span{
+    margin-left: 45px;
+    color: orange;
+    text-shadow: 0 0 4px orange;
+}
+.collapse{
+    text-align: center;
+}
+.me{
+    background-image: url(../imgs/cover1.jpeg) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.me img{
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 72vh;
+    left: 45vw;
+}
+.arrow:hover{
+    background-color: #2A2A26;
+    color: orange !important;
+}
+.arrow a{
+    color: #2A2A26;
+}
+.arrow a:hover{
+   color: orange;
+}
+.caption{
+    background-color: rgba(255, 165, 0, 0.9);
+    width: 40vw;
+    position: absolute;
+    top: 35vh;
+    left: 30vw;
+    border-radius: 20px;
+    font-family: monospace;
+}
+.cap{
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+.cap h1{
+    font-size: 20px;
+}
+.cap h2{
+    font-size: 20px;
+}
+.cap h5{
+    font-size: 17px;
+}
+a button{
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2A2A26;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #2A2A26;
+    transition: 1s;
+}
+a button:hover{
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+.aboutm{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(42, 42, 38);
+    color: #ffffff;
+}
+.contain{
+    padding-top: 10vh;
+    padding-left: 15vw;
+}
+.aboutme{
+    text-align: center;
+    padding-top: 13vh;
+    font-family: monospace;
+}
+.aboutme h1{
+    font-size: 50px;
+    color: orange;
+}
+.aboutme hr{
+    width: 20vw;
+    margin-left: 39vw;
+    color: orange;
+}
+
+.aboutquote{
+    font-family: monospace;
+    text-align: left;
+}
+.aboutquote p{
+    margin-left: 2vw;
+    line-height: 4.5vh;
+}
+.info ul{
+    list-style: none;
+    line-height: 4vh;
+}
+.info i{
+    color: orange;
+}
+.aboutm button{
+    background-color: orange;
+    border-color: #2A2A26;
+    color: #2A2A26;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+    margin-bottom: 3vh;
+}
+.aboutm button:hover{
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: 0.5s;
+}
+.myskills{
+    background-image: url(../imgs/cover2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    text-align: center;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.skillbody{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding-top: 13vh;
+}
+.skillquote{
+    color: white;
+    font-family: monospace;   
+}
+.skillquote h1{
+    font-size: 50px;
+}
+.skillbody hr{
+    color: #ffffff;
+    width: 22vw;
+    margin-left: 38vw;
+}
+.progress-bars{
+    list-style-type: none;
+    padding: 1.5em;
+    color: #ffffff;
+    background: rgba(17, 17, 17,0.85);
+    border-radius: 15px;
+    width: 80vw;
+    box-shadow: 0 0 15px #050505;
+    margin-left: 10vw !important;
+    height: 68vh;
+    overflow-y: scroll;
+}
+.progress-bars h4{
+    color: rgba(255, 255, 255,1);
+    font-weight: 400;
+    margin: 0.5em 0;
+   
+}
+.progress-bars li{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+    width: 85%;
+    height: 2px;
+    background: #111111;
+    box-shadow: inset -1px -1px #5c5c5c,
+                inset 1px 4px 8px #050505;
+    border-radius: 10px;
+    margin: 2em 0;
+}
+.progress{
+    background: linear-gradient(90deg, #ffa500 , #DB6B02  );
+    width: 0%;
+    height: 100% !important;
+    border-radius: inherit;
+    position: relative;
+    box-shadow: 0 0 3px #70adff;
+}
+.progress::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    height: 100%;
+    background: #ffffff;
+    border-radius: inherit;
+    box-shadow: 0 0 20px #ffffff;
+    filter: blur(2px);
+}
+.percentage{
+    font-weight: 700;
+    color: #f1f1f1;
+    text-shadow: 0 0 5px #305e9c;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 165, 0); 
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 165, 0, 0.7); 
+}
+.myportfolio{
+    background-color: #2A2A26;
+    font-family: monospace;
+    text-align: center;
+}
+.myportfolio h1{
+    color: orange;
+    font-size: 50px;
+}
+.myportfolio hr{
+    color: orange;
+    width: 22vw;
+    margin-left: 38.5vw;
+}
+.portfolio-name{
+    padding-top: 13vh;
+}
+.port-img{
+    border-radius: 35px;    
+    position: relative;
+   
+}
+.port-img img{
+    border-radius: 30px;
+}
+.port-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    border-radius: 28.5px;
+    color: orange;
+    opacity: 0;
+    transition: .5s;
+}
+.port-overlay:hover{
+    opacity: 1;
+}
+.overlay-content{
+    margin-top: 30%;
+}
+.overlay-content a{
+    text-decoration: none;
+    color: orange;
+}
+.overlay-content a:hover{
+    color: rgba(255, 165, 0, 0.7);
+}
+.overlay-arrow{
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    color: #2A2A26 !important;
+    border-radius: 50%;
+    float: right;
+    margin-top: 1.5vh;
+    margin-right: 1vw;
+    transition: .5s;
+}
+.overlay-arrow i{
+    font-size: 35px;
+    color: #2A2A26;
+}
+.overlay-arrow i:hover{
+    color: orange;
+}
+.overlay-arrow:hover{
+    background-color: transparent;
+    color: orange;
+}
+.contact-us{
+    background-image: url(../imgs/contact.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.contact-body{
+    margin-top: 13vh !important;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80vw;
+    border-radius: 20px;
+}
+.contact-us .card{
+    border: 1px solid #ffa500;
+}
+
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    
+
+}
+
+.contact-name h1{
+    margin-top: 3vh ;
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid #ffa500;
+}
+
+.name{
+    margin-top: 4vh !important;
+    text-align: center;
+}
+.name input{
+    border-radius: 10px !important;
+    padding: 1vh 1vw;
+    width: 60vw;
+    border:1px solid orange;
+}
+.name textarea{
+    padding: 2vh 2vw;
+    font-size: 20px;
+    width: 75vw;
+    height: 30vh;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid orange;
+    margin-top: 2vh;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    margin-top: 2vh;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+    font-weight: 500;
+    background-color: #2A2A26;
+    border:1px solid orange;
+    color: orange;
+}
+.button button:hover{
+    background-color: orange;
+    color: #2A2A26;
+    border: 1px solid #2A2A26;
+}
+footer{
+    background-color: black;
+    width: 100vw;
+    
+    text-align: center;
+}
+.fa-brands{
+    padding: 1.5vh 1.5vw;
+    padding-top: 3vh;
+}
+.social i{
+    color: orange;
+}
+.social i:hover{
+    color: rgba(255, 165, 0, 0.6);
+}
+.copy{
+    color: orange;
+    padding-top: 1vh;
+}
+.copy a{
+    text-decoration: none;
+    color: orange;
+    text-shadow: 0 0 1.5px #ffffff;
+}
+.copy a:hover{
+    color: rgba(255, 165, 0, 0.6);
+}
+@media screen and (min-width:576px) {
+    .progress-bars{
+        overflow-y: hidden;
+    }
+    a button{
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  
+}
+@media screen and (min-width:991px){
+    .collapse{
+        margin-left: 260px;
+    }
+    .aboutm{
+        height: 100vh;
+    }
+    .meimg img{
+        width: 400px;
+        height: 400px;
+    }
+  
+}
+
+@media screen and (min-width:1150px){
+    .cap h1{
+        font-size: 30px;
+    }
+    .cap h2{
+        font-size: 30px;
+    }
+    .cap h5{
+        font-size: 23px;
+    }
+    .arrow{
+        position: absolute;
+        top: 72vh;
+        left: 48vw;
+    }
+   
+}
